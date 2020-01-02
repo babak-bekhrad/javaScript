@@ -21,6 +21,6 @@ export const renderLoader = parent => {
 };
 export const clearLoader = () => {
   const loader = document.querySelector(`.${elementStrings.loader}`);
-  // commit and 
+   
   if (loader) loader.remove();
 };
